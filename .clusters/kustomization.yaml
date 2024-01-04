@@ -3,7 +3,7 @@ kind: GitRepository
 metadata:
   name: vote-app
 spec:
-  interval: 1m0s
+  interval: 30m0s
   ref:
     branch: dev
   url: git@github.com:comanescumariaroxana/arc-gitops-flux2.git
@@ -14,7 +14,7 @@ metadata:
   name: vote-app-config
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 30m0s
   sourceRef:
     kind: GitRepository
     name: vote-app
