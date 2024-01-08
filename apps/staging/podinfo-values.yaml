@@ -20,4 +20,4 @@ spec:
       repository: ghcr.io/stefanprodan/podinfo
       tag: 6.5.4
       pullPolicy: IfNotPresent
-    replicaCount: 3
+    replicaCount: 2
